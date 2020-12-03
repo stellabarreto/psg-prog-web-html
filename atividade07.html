@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicação de CSS Externo</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css"
-    media="all">    
+    <title>Aplicação CSS Incorporada</title>
+    <style>
+        p{
+            color: blanchedalmond;
+            background-color: crimson;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <!--CSS Incorporado-->
     <h2>Texto Centralizado</h2>
     <p>
-        Agora o CSS esta externo ao arquivo html.
+        Demonstração de CSS Incorporado
     </p>
-    <div class="fundo">
-        <div class="butao">
-            Exemplo
-        </div>
-    </div>
-
+    <!--devido ao stilo já pré-definido em head, o próximo p ou h2 usado ficará com o mesmo estilo-->
+    <p>
+        Parágrafo para demonstração de continuidade
+    </p>
 </body>
 </html>

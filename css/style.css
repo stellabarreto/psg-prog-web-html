@@ -1,14 +1,53 @@
 /*importando folha de estilo externa
 @import "style2.cc";*/
+h1{/*incluso mudança de fonte*/
+    text-align: center;
+    /*font-size: 4em;*/
+    font: sans-serif;
+    /*alteração da borda*/
+    border: solid 10px;
+    /*alteração do padding...Colocando somente 2 valores, o 1º será o superior e inferior e o 2º valor será direita e esquerda*/
+    padding: 15px 25px 20px 25px;
+    /*alteração da margen*/
+    margin: 25px 15px 20px 15px;
+    width: 400px;
+    height: 150px;  
+}
+
 h2{
     text-align: center;
     color: blue;
-    font-size: 3em;
+    /*font-size: 3em;*/
+    /*alteração da margem*/
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    /*alteração do padding*/
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    /*alteração das bordas*/
+    border-top: yellow dashed 5px;
+    border-right: red dashed 5px;
+    border-bottom: blue solid 5px;
+    border-left: black dashed 5px;
+
 }
 
 p{
     color: darksalmon;
-    background-color: rgb(12, 11, 11);
+    /*background-color: rgb(12, 11, 11);*/
+    /*alteração das bordas*/
+    border-top-style: groove;
+    border-top-width: 50px;
+    border-right-style: dotted;
+    border-right-width: 50px;
+    border-bottom-style: double;
+    border-bottom-width: 50px;
+    border-left-style: inset;
+    border-left-width: 50px;
 }
 
 .fundo{
